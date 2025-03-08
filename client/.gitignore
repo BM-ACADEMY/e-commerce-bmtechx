@@ -1,0 +1,32 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore the .env file (for sensitive information like API keys)
+.env
+
+# Ignore build directories
+/dist
+/build
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports (e.g., from testing frameworks)
+coverage/
+
+# Ignore IDE/Editor files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Ignore temporary files
+*.swp
+*.bak
+
+# Ignore dependency lock files (e.g., for Yarn, npm)
+yarn.lock
+package-lock.json
