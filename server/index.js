@@ -17,8 +17,8 @@ import orderRouter from './route/order.route.js'
 
 const app = express()
 app.use(cors({
-    origin: "*",  // Allow requests from ANY domain
-    credentials: true,  
+    origin: "*",
+    credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }))
