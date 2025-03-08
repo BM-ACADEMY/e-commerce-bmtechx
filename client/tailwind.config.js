@@ -13,7 +13,9 @@ export default {
         "secondary-100" : "#0b1a78"
       }
     },
-  },
-  plugins: [],
+  },  
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
 
