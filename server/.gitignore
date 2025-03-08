@@ -5,7 +5,7 @@ node_modules/
 *.log
 
 # Ignore the .env file (for sensitive information like API keys)
-.env
+# .env
 
 # Ignore build directories
 /dist

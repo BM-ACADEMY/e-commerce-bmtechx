@@ -17,8 +17,10 @@ import orderRouter from './route/order.route.js'
 
 const app = express()
 app.use(cors({
-    credentials : true,
-    origin : process.env.FRONTEND_URL
+    origin: "*",  // Allow requests from ANY domain
+    credentials: true,  
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
+    allowedHeaders: ['Content-Type', 'Authorization']
 }))
 app.use(express.json())
 app.use(cookieParser())
