@@ -267,7 +267,9 @@ export const deleteProductDetails = async(request,response)=>{
 //search product
 export const searchProduct = async(request,response)=>{
     try {
-        let { search, page , limit } = request.body 
+        let { search, page , limit } = request.body ;
+        console.log(request.body,'sdfdfdf');
+        
 
         if(!page){
             page = 1
