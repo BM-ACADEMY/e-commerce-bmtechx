@@ -107,7 +107,7 @@ const Login = () => {
                                 }
                             </div>
                         </div>
-                        <Link to={"/forgot-password"} className='block ml-auto hover:text-primary-200'>Forgot password ?</Link>
+                        
                     </div>
     
                     <button disabled={!valideValue} className={` ${valideValue ? "bg-green-800 hover:bg-green-700" : "bg-gray-500" }    text-white py-2 rounded font-semibold my-3 tracking-wide`}>Login</button>
@@ -124,3 +124,4 @@ const Login = () => {
 
 export default Login
 
+{/* <Link to={"/forgot-password"} className='block ml-auto hover:text-primary-200'>Forgot password ?</Link> */}
